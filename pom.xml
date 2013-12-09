@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -11,7 +10,7 @@
 
     <groupId>com.baxter.jetty</groupId>
     <artifactId>baxter-jetty-wrapper</artifactId>
-    <version>8.1-SNAPSHOT</version>
+    <version>8.1</version>
     <packaging>jar</packaging>
     <name>Baxter Jetty Wrapper</name>
 
@@ -23,7 +22,8 @@
         <connection>scm:git:ssh://git@git.cloudbees.com/baxter/jetty-wrapper.git</connection>
         <developerConnection>scm:git:ssh://git@git.cloudbees.com/baxter/jetty-wrapper.git</developerConnection>
         <url>ssh://git@git.cloudbees.com/baxter/jetty-wrapper.git</url>
-    </scm>
+      <tag>baxter-jetty-wrapper-8.1</tag>
+  </scm>
 
     <build>
 
