@@ -10,7 +10,7 @@
 
     <groupId>com.baxter.jetty</groupId>
     <artifactId>baxter-jetty-wrapper</artifactId>
-    <version>8.2-SNAPSHOT</version>
+    <version>9.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Baxter Jetty Wrapper</name>
 
@@ -313,7 +313,7 @@
     </dependencies>
 
     <properties>
-        <jetty.version>8.1.14.v20131031</jetty.version>
+        <jetty.version>9.1.0.v20131115</jetty.version>
         <connector-jar>baxter-jetty-wrapper.jar</connector-jar>
         <unix.package>baxter-jetty-wrapper</unix.package>
         <unix.application.group.name>Java</unix.application.group.name>
