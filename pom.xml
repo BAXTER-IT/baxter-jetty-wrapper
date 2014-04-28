@@ -19,9 +19,9 @@
     <url>https://repository-baxter.forge.cloudbees.com/private/sites/jetty-wrapper/</url>
 
     <scm>
-        <connection>scm:git:ssh://git@git.cloudbees.com/baxter/jetty-wrapper.git</connection>
-        <developerConnection>scm:git:ssh://git@git.cloudbees.com/baxter/jetty-wrapper.git</developerConnection>
-        <url>ssh://git@git.cloudbees.com/baxter/jetty-wrapper.git</url>
+        <connection>scm:git:ssh://git@github.com:BAXTER-IT/baxter-jetty-wrapper.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:BAXTER-IT/baxter-jetty-wrapper.git</developerConnection>
+        <url>ssh://git@github.com:BAXTER-IT/baxter-jetty-wrapper.git</url>
       <tag>HEAD</tag>
   </scm>
 
