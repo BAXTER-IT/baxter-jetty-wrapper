@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.baxter</groupId>
         <artifactId>parent</artifactId>
-        <version>1.2.2</version>
+        <version>1.4</version>
     </parent>
 
     <groupId>com.baxter.connector.jetty</groupId>
     <artifactId>baxter-jetty-wrapper</artifactId>
-    <version>9.2-SNAPSHOT</version>
+    <version>8.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Baxter Jetty Wrapper</name>
 
@@ -292,7 +292,7 @@
     </dependencies>
 
     <properties>
-        <jetty.version>9.1.0.v20131115</jetty.version>
+        <jetty.version>8.1.14.v20131031</jetty.version>
         <connector-jar>baxter-jetty-wrapper.jar</connector-jar>
         <unix.package>baxter-jetty-wrapper</unix.package>
         <unix.application.group.name>Java</unix.application.group.name>
