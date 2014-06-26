@@ -8,7 +8,7 @@
         <version>1.2.2</version>
     </parent>
 
-    <groupId>com.baxter.jetty</groupId>
+    <groupId>com.baxter.connector.jetty</groupId>
     <artifactId>baxter-jetty-wrapper</artifactId>
     <version>9.2-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -56,27 +56,6 @@
     </build>
 
     <profiles>
-
-        <profile>
-            <id>Distribution-CloudBees</id>
-            <distributionManagement>
-                <site>
-                    <id>cloudbees-private-repository</id>
-                    <name>Baxter Configuration Site</name>
-                    <url>dav:https://repository-baxter.forge.cloudbees.com/private/sites/jetty-wrapper/</url>
-                </site>
-            </distributionManagement>
-        </profile>
-
-        <profile>
-            <id>Distribution-Baxter</id>
-            <distributionManagement>
-                <site>
-                    <id>qa-apache</id>
-                    <url>scp://qa.baxtersol.bit/var/www/products/jetty-wrapper/</url>
-                </site>
-            </distributionManagement>
-        </profile>
 
         <profile>
             <id>TARGZ</id>
